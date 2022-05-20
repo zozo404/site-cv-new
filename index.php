@@ -399,7 +399,7 @@ require 'mail.php';
             </div>
             <div   class="portfolio-block-general" >
                 <div class="portfolio-block-haut">
-                    <a href="#" target="_blank">
+                    <a href="https://github.com/zozo404/site-cv-new" target="_blank">
                         <div class="portfolio-block-haut-g" >
                             <img src="./imgs/img-site-cv.PNG" alt="portfolio">
                             <p>Nouveau site cv</p>

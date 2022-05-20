@@ -516,8 +516,7 @@ require 'mail.php';
     
    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
 
-   <!-- stats.js lib -->
-   <script src="http://threejs.org/examples/js/libs/stats.min.js"></script>
+   
    
   <script>
     

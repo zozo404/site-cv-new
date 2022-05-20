@@ -6,15 +6,17 @@ document.addEventListener("DOMContentLoaded",function(){
     //     var hash = this.hash;
     //     $('body,html').animate({scrollTop: $(hash).offset().top} , 900, function (){window.location.hash = hash;})
     // });
-    $(document).ready(function(event) {
+    $(document).ready(function() {
       // var hashId = window.location.hash;
-      event.preventDefault();
-      var sectionid = $(hashId);
-      if(sectionid.length != 0) {
-        {
-          $('html,body').animate({scrollTop: window.location.hash.offset().top}, 900, function(){window.location.hash = hash});
-        }
-      }});
+      $(".navbar a, footer a, .div-up a, #navbar-tel a, .presentation-div-btn-all a").on("click", function(event){
+          var sectionid = $(hashId);
+          if(sectionid.length != 0) {
+            {
+              $('html,body').animate({scrollTop: window.location.hash.offset().top}, 900, function(){window.location.hash = hash});
+            }
+          }
+      });
+    });
   })
 
 

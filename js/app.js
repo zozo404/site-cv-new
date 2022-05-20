@@ -7,11 +7,11 @@ document.addEventListener("DOMContentLoaded",function(){
     //     $('body,html').animate({scrollTop: $(hash).offset().top} , 900, function (){window.location.hash = hash;})
     // });
     $(document).ready(function() {
-      var hashId = window.location.hash;
+      // var hashId = window.location.hash;
       var sectionid = $(hashId);
       if(sectionid.length != 0) {
         {
-          $('html,body').animate({scrollTop: $(hashId).offset().top}, 900, function(){hashId;});
+          $('html,body').animate({scrollTop: window.location.hash.offset().top}, 900, function(){window.location.hash = hash});
         }
       }});
   })

@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded",function(){
     //     var hash = this.hash;
     //     $('body,html').animate({scrollTop: $(hash).offset().top} , 900, function (){window.location.hash = hash;})
     // });
-    $(document).ready(function() {
+    $(document).ready(function(event) {
       // var hashId = window.location.hash;
       event.preventDefault();
       var sectionid = $(hashId);

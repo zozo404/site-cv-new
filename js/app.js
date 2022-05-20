@@ -5,13 +5,10 @@ document.addEventListener("DOMContentLoaded",function(){
 
         event.preventDefault();
         var hash = this.hash;
-        var headerHeight = $("#id-header").height()
-        var target = $(this).attr("href");
-        var scrollToPosition = $(target).offset().top - headerHeight;
+
 
         
-        $('body,html').animate({scrollTop: scrollToPosition } , 900, function (){window.location.hash = hash;})
-        
+        $('body,html').animate({scrollTop: $(hash).offset().top} , 900, function (){window.location.hash = hash;})
 
     });
     

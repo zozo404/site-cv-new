@@ -5,6 +5,7 @@ document.addEventListener("DOMContentLoaded",function(){
 
         event.preventDefault();
         var hash = this.hash;
+        var headerHeight = $("#id-header").height()
         var target = $(this).attr("href");
         var scrollToPosition = $(target).offset().top - headerHeight;
 

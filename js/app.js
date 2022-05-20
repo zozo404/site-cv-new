@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded",function(){
       var sectionid = $(hashId);
       if(sectionid.length != 0) {
         {
-          $('html,body').animate({scrollTop: $(hashId).offset().top}, 900);
+          $('html,body').animate({scrollTop: $(hashId).offset().top}, 900, function(){hashId;});
         }
       }});
   })

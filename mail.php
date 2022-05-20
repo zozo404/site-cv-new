@@ -1,15 +1,15 @@
 <?php
-try {
+// try {
 
-    $connexion = new PDO("mysql:host=$servername;dbname=$dbname;port=3306;charset=utf8", $username);    
-    $connexion->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+//     $connexion = new PDO("mysql:host=$servername;dbname=$dbname;port=3306;charset=utf8", $username);    
+//     $connexion->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
     
     
-} catch(PDOException $e){
+// } catch(PDOException $e){
 
-    echo 'Echec de connexion : ' . $e->getMessage(); 
+//     echo 'Echec de connexion : ' . $e->getMessage(); 
 
-}
+// }
 //envoie de mail   
 if (isset($_POST["formText"])) {
         $entete  = 'MIME-Version: 1.0' . "\r\n";

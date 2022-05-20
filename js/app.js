@@ -7,9 +7,9 @@ document.addEventListener("DOMContentLoaded",function(){
         var hash = this.hash;
 
 
-        if(hash.length){
-          $('body,html').animate({scrollTop: $(hash).offset().top} , 900, function (){window.location.hash = hash;})
-        }
+        
+        $('body,html').animate({scrollTop: $(hash).offset().top} , 900, function (){window.location.hash = hash;})
+        
 
     });
     

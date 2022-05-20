@@ -1,18 +1,4 @@
 document.addEventListener("DOMContentLoaded",function(){
-  
-  $(document).ready(function(){
-    //animation pour hamburger
-    $(".hamburger").click(function() {
-      $(".hamburger").toggleClass("is-active");
-    });
-    //btn bouton faire apparaitre navbar
-    $("#btn-navbar").click(function(){
-      $("#navbar-tel").slideToggle("slow");
-      $("#btn-navbar").css("display","flex");
-      $("#navbar-tel").css("display","flex");
-    })
-  })
-  
   $(function (){
 
     $(".navbar a, footer a, .div-up a, #navbar-tel a, .presentation-div-btn-all a").on("click", function(event){
@@ -28,6 +14,23 @@ document.addEventListener("DOMContentLoaded",function(){
     });
     
   })
+
+
+ 
+  $(document).ready(function(){
+    //animation pour hamburger
+    $(".hamburger").click(function() {
+      $(".hamburger").toggleClass("is-active");
+    });
+    //btn bouton faire apparaitre navbar
+    $("#btn-navbar").click(function(){
+      $("#navbar-tel").slideToggle("slow");
+      $("#btn-navbar").css("display","flex");
+      $("#navbar-tel").css("display","flex");
+    })
+  })
+  
+
      
 
 })

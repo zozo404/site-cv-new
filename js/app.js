@@ -8,6 +8,7 @@ document.addEventListener("DOMContentLoaded",function(){
     // });
     $(document).ready(function() {
       // var hashId = window.location.hash;
+      event.preventDefault();
       var sectionid = $(hashId);
       if(sectionid.length != 0) {
         {

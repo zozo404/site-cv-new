@@ -161,12 +161,12 @@ require 'mail.php';
                     </p>
                     <div class="presentation-div-btn-all">
                         <div class="presentation-div-btn-haut">
-                            <a href="/docs/CV-Enzo-Cuny.pdf" target="_blank">
+                            <a href="./docs/CV-Enzo-Cuny.pdf" target="_blank">
                                 <div class="btn-cv">
                                 Télécharger CV
                                 </div>
                             </a>
-                            <a href="https://github.com/zozo404?tab=repositories" target="_blank">
+                            <a href="https://github.com/zozo404" target="_blank">
                                 <div class="btn-github">
                                         Mon Github
                                 </div>

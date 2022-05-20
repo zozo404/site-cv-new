@@ -1,8 +1,4 @@
 <?php
-$servername = 'localhost';
-$username = 'root';
-$password = '';
-$dbname = 'site_cv_new_php';
 try {
 
     $connexion = new PDO("mysql:host=$servername;dbname=$dbname;port=3306;charset=utf8", $username);    

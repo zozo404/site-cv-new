@@ -1,8 +1,4 @@
 <?php
-$servername = 'localhost';
-$username = 'root';
-$password = '';
-$dbname = 'site_cv_new_php';
 
 require 'mail.php';
 

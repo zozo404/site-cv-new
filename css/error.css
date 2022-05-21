@@ -1,0 +1,165 @@
+body{
+    margin:0;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    background-color: #292929;
+    color: #F49F0A;
+}
+h1{
+    text-align: center;
+}
+/* MOBILE FIRST !!!!!!!!!!!!!!!!!!! */
+.container-error{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container-g{
+    font-size: 130px;
+    position: relative;
+    z-index: 404;
+    
+}
+.container-g p{
+    margin-top: 15px;
+}
+.container-d{
+    background-color: #F49F0A;
+    text-align: center;
+    position: relative;
+    transform: rotate(-21deg);
+    top: -120px;
+    transition: 0.5s;
+    border-radius: 300px;
+    height: 220px;
+    animation: accueil-anim 4s cubic-bezier(0.37, 0, 0.63, 1) 0s infinite normal none;
+    width: 230px;
+}
+@keyframes accueil-anim {
+    0%,
+    100% {
+        transform: translateX(0%);
+        transform-origin: 50% 50%;
+    }
+
+    15% {
+        transform: translateX(-15px) rotate(-6deg);
+    }
+
+    30% {
+        transform: translateX(15px) rotate(6deg);
+    }
+
+    45% {
+        transform: translateX(-15px) rotate(-3.6deg);
+    }
+
+    60% {
+        transform: translateX(9px) rotate(2.4deg);
+    }
+
+    75% {
+        transform: translateX(-6px) rotate(-1.2deg);
+    }
+}
+.lien-accueil{
+    text-decoration: none;
+    border-radius: 30px;
+    color: #03e9f4;
+    background-color: #292929;
+    transition: 0.5s;
+    -webkit-box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 14px 14px 0px 50px rgba(3,233,244,0); 
+    box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 14px 14px 0px 50px rgba(3,233,244,0);
+    position: relative;
+    top: -66px;
+}
+
+@-webkit-keyframes btn-accueil-pop {
+    50% {
+      -webkit-transform: scale(1.2);
+      transform: scale(1.2);
+    }
+  }
+  
+  @keyframes btn-accueil-pop {
+    50% {
+      -webkit-transform: scale(1.2);
+      transform: scale(1.2);
+    }
+  }
+  
+  
+  .lien-accueil:hover {
+    -webkit-animation-name: btn-accueil-pop;
+    animation-name: btn-accueil-pop;
+    -webkit-animation-duration: 0.3s;
+    animation-duration: 0.3s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    background-color: #03e8f4;
+    color: #292929;
+    transition: 0.5s;
+  }
+
+.lien-accueil p{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+/* FIN MOBILE FIRST */
+
+/* version min 600px */
+@media screen and (min-width:600px) {
+    .container-d{
+        border-radius: 300px;
+        transition: 0.5s;
+        height: 580px;
+        animation: accueil-anim 4s cubic-bezier(0.37, 0, 0.63, 1) 0s infinite normal none;
+        width: 600px;
+    }
+    .lien-accueil{
+        padding: 10px;
+        font-size: 25px;
+    }
+    .container-d p{
+        position: relative;
+        top: 82px;
+        font-size: 40px;
+
+    }
+    @keyframes accueil-anim {
+        0%,
+        100% {
+            transform: translateX(0%);
+            transform-origin: 50% 50%;
+        }
+    
+        15% {
+            transform: translateX(-30px) rotate(-6deg);
+        }
+    
+        30% {
+            transform: translateX(15px) rotate(6deg);
+        }
+    
+        45% {
+            transform: translateX(-15px) rotate(-3.6deg);
+        }
+    
+        60% {
+            transform: translateX(9px) rotate(2.4deg);
+        }
+    
+        75% {
+            transform: translateX(-6px) rotate(-1.2deg);
+        }
+    }
+
+}
+@media screen and (max-width:600px) {
+    .container-d p:first-child{
+        margin-top: 50px;
+    }
+}

@@ -178,12 +178,7 @@ require 'mail.php';
                                 <div class="btn-linkedin">
                                     Mon Linkedin
                                 </div>
-                            </a>
-                            <a href="#id-contact">
-                                <div class="btn-mail">
-                                    Me contacter
-                                </div>
-                            </a>   
+                            </a> 
                         </div>
 
                     </div>

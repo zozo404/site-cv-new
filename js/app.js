@@ -20,7 +20,6 @@ document.addEventListener("DOMContentLoaded",function(){
     //btn bouton faire apparaitre navbar
     $("#btn-navbar").click(function(){
       $("#navbar-tel").slideToggle("slow");
-      $("#btn-navbar").css("display","flex");
       $("#navbar-tel").css("display","flex");
     })
   })

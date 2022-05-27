@@ -55,6 +55,11 @@ require 'mail.php';
                         Compétences
                     </div>
                 </a>
+                <a href="#id-parcours">
+                    <div class="">
+                        Parcours
+                    </div>
+                </a>
                 <a href="#id-experiences">
                     <div class="">Expériences
                     </div>

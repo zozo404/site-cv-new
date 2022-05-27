@@ -675,7 +675,7 @@ canvas{
     .div-navbar-responsive{
         gap: 0px;
         font-size: 18px;
-        top: -25px;
+        top: -45px;
     }
 }
 @media screen and (min-height:1000px) {

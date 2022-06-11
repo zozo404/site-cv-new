@@ -423,7 +423,7 @@ require 'mail.php';
                     </a>
                     <a href="https://github.com/zozo404/PPE4_FINI" target="_blank">
                         <div class="portfolio-block-bas-d">
-                            <img src="./imgs/foot404.webp" alt="foot404">
+                            <img src="./imgs/foot.webp" alt="foot404">
                             <p>Projet Foot404 (PPE4-BTS)</p>
                         </div>
                     </a>

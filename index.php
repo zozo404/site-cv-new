@@ -42,35 +42,35 @@ require 'mail.php';
             <!-- navbar responsive-->
             <div class="div-navbar-responsive" id="navbar-tel">
                 <a href="#id-body">
-                    <div class="">Accueil
+                    <div >Accueil
                     </div>
                 </a>
                 <a href="#id-presentation">
-                    <div class="">
+                    <div >
                         Présentation
                     </div>
                 </a>
                 <a href="#id-competences">
-                    <div class="">
+                    <div >
                         Compétences
                     </div>
                 </a>
                 <a href="#id-parcours">
-                    <div class="">
+                    <div >
                         Parcours
                     </div>
                 </a>
                 <a href="#id-experiences">
-                    <div class="">Expériences
+                    <div >Expériences
                     </div>
                 </a>
                 <a href="#id-portfolio">
-                    <div class="">
+                    <div >
                         Portfolio
                     </div>
                 </a>
                 <a href="#id-contact">
-                    <div class="">
+                    <div >
                         Contact
                     </div>
                 </a>
@@ -200,35 +200,35 @@ require 'mail.php';
                 <p class="competences-titre-text style-titre">Compétences</p>
             </div>
             <div class="competences-all-block">
-                <div class="">
-                    <img src="./imgs/html.png">
+                <div >
+                    <img src="./imgs/html.png" alt="logo html">
                 </div>
-                <div class="">
-                    <img src="./imgs/css.png">
+                <div >
+                    <img src="./imgs/css.png" alt="logo css">
                 </div>
-                <div class="">
-                    <img src="./imgs/sql.png">
+                <div >
+                    <img src="./imgs/sql.png" alt="logo sql">
                 </div>
-                <div class="">
-                    <img src="./imgs/javascript.png">
+                <div >
+                    <img src="./imgs/javascript.png" alt="logo javascript">
                 </div>
-                <div class="">
-                    <img src="./imgs/jquery.png">
+                <div >
+                    <img src="./imgs/jquery.png" alt="logo jquery">
                 </div>
-                <div class="">
-                    <img src="./imgs/php.png">
+                <div >
+                    <img src="./imgs/php.png" alt="logo php">
                 </div>
-                <div class="">
-                    <img src="./imgs/symfony.png">
+                <div >
+                    <img src="./imgs/symfony.png" alt="logo symfony">
                 </div>
-                <div class="">
-                    <img src="./imgs/bootstrap.png">
+                <div >
+                    <img src="./imgs/bootstrap.png" alt="logo bootstrap">
                 </div>
-                <div class="">
-                    <img src="./imgs/github.png">
+                <div >
+                    <img src="./imgs/github.png" alt="logo github">
                 </div>
-                <div class="">
-                    <img src="./imgs/git.png">
+                <div >
+                    <img src="./imgs/git.png" alt="logo git">
                 </div>
             </div>
         </div>

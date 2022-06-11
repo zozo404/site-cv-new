@@ -243,7 +243,7 @@ require 'mail.php';
 
             <ul class="timeline">
                 <li>
-                    <div class="timeline-badge timeline-badge-gauche" ><img src="./imgs/logo sac.png"></div>
+                    <div class="timeline-badge timeline-badge-gauche" ><img src="./imgs/logo sac.png" alt="sac parcours"></div>
                     <div class="timeline-panel-container">
                         <div class="timeline-panel">
                             <div class="timeline-heading">
@@ -260,7 +260,7 @@ require 'mail.php';
 
                 </li>
                 <li>
-                    <div class="timeline-badge timeline-badge-droite"><img src="./imgs/logo sac.png"></div>
+                    <div class="timeline-badge timeline-badge-droite"><img src="./imgs/logo sac.png" alt="sac parcours"></div>
                     <div class="timeline-panel-container-inverted">
                         <div class="timeline-panel">
                             <div class="timeline-heading">
@@ -277,7 +277,7 @@ require 'mail.php';
 
                 </li>
                 <li>
-                    <div class="timeline-badge timeline-badge-gauche"><img src="./imgs/logo sac.png"></div>
+                    <div class="timeline-badge timeline-badge-gauche"><img src="./imgs/logo sac.png" alt="sac parcours"></div>
                     <div class="timeline-panel-container">
                         <div class="timeline-panel">
                             <div class="timeline-heading">
@@ -294,7 +294,7 @@ require 'mail.php';
 
                 </li>
                 <li>
-                    <div class="timeline-badge timeline-badge-droite"><img src="./imgs/logo sac.png"></div>
+                    <div class="timeline-badge timeline-badge-droite"><img src="./imgs/logo sac.png" alt="sac parcours"></div>
                     <div class="timeline-panel-container-inverted">
                         <div class="timeline-panel">
                             <div class="timeline-heading">

@@ -11,7 +11,7 @@ require 'mail.php';
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
     <title>zozoy</title>
-    <link rel="icon" type="image/png" sizes="16x16" href="./imgs/imgMassEffectA.jpg">
+    <link rel="icon" type="image/png" sizes="16x16" href="./imgs/imgMassEffectA.webp">
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/w3.css">
     <link rel="stylesheet" href="css/hamburgers.css">
@@ -158,7 +158,7 @@ require 'mail.php';
             <div class="presentation-profil">
                 <!--presentation avec une photo de moi-->
                 <div class="presentation-div-img">
-                    <img alt="photo de moi" src="./imgs/moi.png">
+                    <img alt="photo de moi" src="./imgs/moi.webp">
                 </div>
                 <!--presentation avec le texte et des btn vers mes liens-->
                 <div class="presentation-div-text">
@@ -207,10 +207,10 @@ require 'mail.php';
                     <img src="./imgs/css.png" alt="logo css">
                 </div>
                 <div >
-                    <img src="./imgs/sql.png" alt="logo sql">
+                    <img src="./imgs/sql.webp" alt="logo sql">
                 </div>
                 <div >
-                    <img src="./imgs/javascript.png" alt="logo javascript">
+                    <img src="./imgs/javascript.webp" alt="logo javascript">
                 </div>
                 <div >
                     <img src="./imgs/jquery.png" alt="logo jquery">
@@ -219,7 +219,7 @@ require 'mail.php';
                     <img src="./imgs/php.png" alt="logo php">
                 </div>
                 <div >
-                    <img src="./imgs/symfony.png" alt="logo symfony">
+                    <img src="./imgs/symfony.webp" alt="logo symfony">
                 </div>
                 <div >
                     <img src="./imgs/bootstrap.png" alt="logo bootstrap">
@@ -328,7 +328,7 @@ require 'mail.php';
                     </div>
                     <div class="experience-block-img">
                         <a href="https://osengo.fr/" target="_blank">
-                            <img src="./imgs/LOGO_OSENGO_OK.png" alt="img-osengo">
+                            <img src="./imgs/LOGO_OSENGO_OK.webp" alt="img-osengo">
                         </a>
                     </div>
                     <div class="experience-block-nom">
@@ -361,7 +361,7 @@ require 'mail.php';
                     </div>
                     <div class="experience-block-img">
                         <a href="https://b-now.com/" target="_blank">
-                            <img src="./imgs/bnow.jpg" alt="img-bnow">
+                            <img src="./imgs/bnow.webp" alt="img-bnow">
                         </a>
                     </div>
                     <div class="experience-block-nom">
@@ -402,14 +402,14 @@ require 'mail.php';
                 <div class="portfolio-block-haut">
                     <a href="https://github.com/zozo404/site-cv-new" target="_blank">
                         <div class="portfolio-block-haut-g" >
-                            <img src="./imgs/img-site-cv.PNG" alt="portfolio">
+                            <img src="./imgs/img-site-cv.webp" alt="portfolio">
                             <p>Nouveau site cv</p>
                         </div>
                     </a>
                     
                     <a href="https://github.com/zozo404/CopieAxa" target="_blank">
                         <div class="portfolio-block-haut-d">
-                            <img src="./imgs/axaBerthalon2.png" alt="axaBerthalon">
+                            <img src="./imgs/axaBerthalon2.webp" alt="axaBerthalon">
                             <p>Projet AxaBerthalon (stage)</p>
                         </div>
                     </a>
@@ -417,13 +417,13 @@ require 'mail.php';
                 <div class="portfolio-block-bas">
                     <a href="https://github.com/zozo404/site-Osengo" target="_blank">
                         <div class="portfolio-block-bas-g">
-                            <img src="./imgs/osengo.PNG" alt="page-osengo">
+                            <img src="./imgs/osengo.webp" alt="page-osengo">
                             <p style="margin: 0;">Page fictive Osengo</p>
                         </div>
                     </a>
                     <a href="https://github.com/zozo404/PPE4_FINI" target="_blank">
                         <div class="portfolio-block-bas-d">
-                            <img src="./imgs/foot404.JPG" alt="foot404">
+                            <img src="./imgs/foot404.webp" alt="foot404">
                             <p>Projet Foot404 (PPE4-BTS)</p>
                         </div>
                     </a>
@@ -489,10 +489,10 @@ require 'mail.php';
         <!--partie de mon footer-->
         <div class="footer">
             <div class="footer-block-contact">
-                    <a href="https://github.com/zozo404" target="_blank"><img src="./imgs/github.png"></a>
-                    <a href="https://www.linkedin.com/in/enzo-cuny/" target="_blank"><img src="./imgs/linkedin.png"></a>
-                    <a href="https://www.instagram.com/enzosengo66" target="_blank"><img src="./imgs/logo insta.png"></a>
-                    <a href="https://twitter.com/zozoy66" target="_blank"><img src="./imgs/twitter.png"></a>
+                    <a href="https://github.com/zozo404" target="_blank"><img src="./imgs/github.png" alt="logo github"></a>
+                    <a href="https://www.linkedin.com/in/enzo-cuny/" target="_blank"><img src="./imgs/linkedin.webp" alt="logo linkedIn"></a>
+                    <a href="https://www.instagram.com/enzosengo66" target="_blank"><img src="./imgs/logo insta.png" alt="logo instagram"></a>
+                    <a href="https://twitter.com/zozoy66" target="_blank"><img src="./imgs/twitter.png" alt="logo twitter"></a>
                 <!--voir quoi mettre-->
             </div>
             <div class="div-border3"></div>

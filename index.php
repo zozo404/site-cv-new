@@ -10,6 +10,7 @@ require 'mail.php';
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <meta name="description" content="Site développé par moi-même afin de me présenter et d'afficher mon portfolio">
     <title>zozoy</title>
     <link rel="icon" type="image/png" sizes="16x16" href="./imgs/imgMassEffectA.webp">
     <link rel="stylesheet" href="css/index.css">

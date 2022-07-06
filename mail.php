@@ -14,7 +14,7 @@
 if (isset($_POST["formText"])) {
         $entete  = 'MIME-Version: 1.0' . "\r\n";
         $entete .= 'Content-type: text/html; charset=utf-8' . "\r\n";
-        $entete .= "From:".$_POST['email'] . "\r\n";
+        $entete .= "From: zozoydev@gmail.com" . "\r\n";
         $entete .= 'Reply-to: ' . $_POST['email'];
 
         $message = '<h2>Message envoyé depuis le formulaire contact de zozoy.fr</h2>

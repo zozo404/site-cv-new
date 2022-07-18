@@ -164,7 +164,7 @@ require 'mail.php';
                 <!--presentation avec le texte et des btn vers mes liens-->
                 <div class="presentation-div-text">
                     <p>
-                    Passionné de développement, des nouvelles technologies, de cryptomonnaie et bien plus encore, je suis actuellement en stage pour ma formation Développeur Web et Web mobile chez Osengo, du <span class="span-date">15/07/2022</span> au <span class="span-date">15/09/2022 </span>afin valider ma formation et de partager mes compétences et ma curiosité.
+                    Passionné de développement, des nouvelles technologies, de cryptomonnaie et bien plus encore, je suis actuellement en stage pour ma formation Développeur Web et Web mobile chez Osengo, du <span class="span-date">15/07/2022</span> au <span class="span-date">15/09/2022 chez VR-Café</span>afin valider ma formation et de partager mes compétences et ma curiosité.
                     </p>
                     <div class="presentation-div-btn-all">
                         <div class="presentation-div-btn-haut">

@@ -133,7 +133,7 @@ require 'mail.php';
                 <!--partie1 de la salutation-->
                 <div class="salutation-text">
                     <p>
-                        Hey,<br>Je suis Enzo 👨‍💻<br>En recherche de stage pour la fin de ma formation Osengo <br>en développement Web et Web mobile.
+                        Hey,<br>Je suis Enzo 👨‍💻<br>En stage pour la fin de ma formation Osengo <br>en développement Web et Web mobile.
                     </p>
                 </div>
                 <!--partie2 de la salutation-->
@@ -164,7 +164,7 @@ require 'mail.php';
                 <!--presentation avec le texte et des btn vers mes liens-->
                 <div class="presentation-div-text">
                     <p>
-                    Passionné de développement, des nouvelles technologies, de cryptomonnaie et bien plus encore, je suis actuellement en formation Développeur Web et Web mobile chez Osengo. Je recherche actuellement un stage du <span class="span-date">15/07/2022</span> au <span class="span-date">15/09/2022 </span>pour valider ma formation afin de partager mes compétences et ma curiosité.
+                    Passionné de développement, des nouvelles technologies, de cryptomonnaie et bien plus encore, je suis actuellement en stage pour ma formation Développeur Web et Web mobile chez Osengo, du <span class="span-date">15/07/2022</span> au <span class="span-date">15/09/2022 </span>afin valider ma formation et de partager mes compétences et ma curiosité.
                     </p>
                     <div class="presentation-div-btn-all">
                         <div class="presentation-div-btn-haut">
